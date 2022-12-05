@@ -4,9 +4,9 @@ session_start();
 /////Key Tool/////
 system('clear');
 while (true){
-$checkkey  = file('xxxxx'); //// Linh Key
+$checkkey  = file('https://pastebin.com/raw/hUALFni7'); //// Linh Key
 echo "\033[1;96mLưu Ý Mỗi Ngày Sẽ Đổi Một Key\n";
-echo "\033[1;93mLink lấy key:\033[1;91m xxxxx\n"; /// Link Key Đã tạo ở link1s.com
+echo "\033[1;93mLink lấy key:\033[1;91m http://traffic1s.com/KeyATKL\n"; /// Link Key Đã tạo ở link1s.com
 echo "\033[1;92mNhập Key Để Vào Tool: \033[1;33m";
       $makey = trim(fgets(STDIN));
     if ($makey == $checkkey[0])  {
